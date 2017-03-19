@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  Huayingdai
+//
+//  Created by 王桂敏 on 16/3/22.
+//  Copyright © 2016年 huayingdai. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//  打印功能
+#ifdef DEBUG
+#define Log(format, ...)                                              \
+NSLog((@"<函数:%s  行号:%d :>\n" format), __FUNCTION__, __LINE__, \
+##__VA_ARGS__);
+#else
+#define Log(format, ...) ;
+#endif
+
+
+
+
+#import "UIViewController+Base.h"
+
+#import <objc/runtime.h>
+#import <objc/message.h>
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BaseVc">
+            <connections>
+                <outlet property="mainTabView" destination="KYd-Rc-x9s" id="Wzt-g3-qLD"/>
+                <outlet property="view" destination="Rec-5M-kDL" id="OOc-8V-awx"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Rec-5M-kDL">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KYd-Rc-x9s">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="kpR-AY-gk7"/>
+                        <outlet property="delegate" destination="-1" id="oi1-3L-wNJ"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="KYd-Rc-x9s" firstAttribute="top" secondItem="Rec-5M-kDL" secondAttribute="top" id="3os-T5-Taz"/>
+                <constraint firstAttribute="bottom" secondItem="KYd-Rc-x9s" secondAttribute="bottom" id="JGf-Sn-NxB"/>
+                <constraint firstAttribute="trailing" secondItem="KYd-Rc-x9s" secondAttribute="trailing" id="RsE-Af-lS8"/>
+                <constraint firstItem="KYd-Rc-x9s" firstAttribute="leading" secondItem="Rec-5M-kDL" secondAttribute="leading" id="k17-VQ-Kqv"/>
+            </constraints>
+            <point key="canvasLocation" x="94" y="67"/>
+        </view>
+    </objects>
+</document>
