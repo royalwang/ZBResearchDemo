@@ -38,7 +38,7 @@ static NSString *const VC_Cell_Identifier = @"xzb_001_cell";
 }
 - (void)customData
 {
-    self.dataArray = @[[ControlModel modelWithTitle:@"测试1" className:@"UIViewController"],
+    self.dataArray = @[[ControlModel modelWithTitle:@"@property的本质" className:@"Research001"],
                        [ControlModel modelWithTitle:@"测试1" className:@"UIViewController"],
                        [ControlModel modelWithTitle:@"测试1" className:@"UIViewController"],
                        [ControlModel modelWithTitle:@"测试1" className:@"UIViewController"]];
@@ -74,6 +74,17 @@ static NSString *const VC_Cell_Identifier = @"xzb_001_cell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    ControlModel *model = self.dataArray[indexPath.row];
+
+    Class controlClass = NSClassFromString(model.controlName);
+    
+    if (controlClass)
+    {
+        [self.navigationController pushViewController:(UIViewController *)[[controlClass alloc] init] animated:YES];
+        
+    }
+    
+   
     
 }
 #pragma mark - notification

@@ -33,6 +33,12 @@
 		30217F1C1E7E3E7300DA24D8 /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 30217F171E7E3E7300DA24D8 /* NSArray+HYBUnicodeReadable.m */; };
 		30217F1D1E7E3E7300DA24D8 /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 30217F191E7E3E7300DA24D8 /* NSDictionary+HYBUnicodeReadable.m */; };
 		30217F1E1E7E3E7300DA24D8 /* NSSet+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 30217F1B1E7E3E7300DA24D8 /* NSSet+HYBUnicodeReadable.m */; };
+		3043A6501E7E7E6100761D6C /* NSObject+AddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3043A6491E7E7E6100761D6C /* NSObject+AddProperty.m */; };
+		3043A6511E7E7E6100761D6C /* NSObject+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3043A64B1E7E7E6100761D6C /* NSObject+AssociatedObject.m */; };
+		3043A6521E7E7E6100761D6C /* NSObject+Reflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3043A64D1E7E7E6100761D6C /* NSObject+Reflection.m */; };
+		3043A6531E7E7E6100761D6C /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3043A64F1E7E7E6100761D6C /* NSObject+Runtime.m */; };
+		3043A6581E7E7EA600761D6C /* Research001.m in Sources */ = {isa = PBXBuildFile; fileRef = 3043A6561E7E7EA600761D6C /* Research001.m */; };
+		3043A6591E7E7EA600761D6C /* Research001.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3043A6571E7E7EA600761D6C /* Research001.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +115,17 @@
 		30217F191E7E3E7300DA24D8 /* NSDictionary+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
 		30217F1A1E7E3E7300DA24D8 /* NSSet+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
 		30217F1B1E7E3E7300DA24D8 /* NSSet+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		3043A6481E7E7E6100761D6C /* NSObject+AddProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AddProperty.h"; sourceTree = "<group>"; };
+		3043A6491E7E7E6100761D6C /* NSObject+AddProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AddProperty.m"; sourceTree = "<group>"; };
+		3043A64A1E7E7E6100761D6C /* NSObject+AssociatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedObject.h"; sourceTree = "<group>"; };
+		3043A64B1E7E7E6100761D6C /* NSObject+AssociatedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedObject.m"; sourceTree = "<group>"; };
+		3043A64C1E7E7E6100761D6C /* NSObject+Reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Reflection.h"; sourceTree = "<group>"; };
+		3043A64D1E7E7E6100761D6C /* NSObject+Reflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Reflection.m"; sourceTree = "<group>"; };
+		3043A64E1E7E7E6100761D6C /* NSObject+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
+		3043A64F1E7E7E6100761D6C /* NSObject+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
+		3043A6551E7E7EA600761D6C /* Research001.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Research001.h; sourceTree = "<group>"; };
+		3043A6561E7E7EA600761D6C /* Research001.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Research001.m; sourceTree = "<group>"; };
+		3043A6571E7E7EA600761D6C /* Research001.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Research001.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,8 +204,7 @@
 		30217E161E7E356600DA24D8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				30217F1F1E7E3ED100DA24D8 /* 1KVO观察Category属性 */,
-				30217F201E7E3ED100DA24D8 /* 2JS与OC方法转换 */,
+				3043A6541E7E7E8700761D6C /* @property的本质 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -222,6 +238,7 @@
 		30217ED61E7E3E5300DA24D8 /* Categorys */ = {
 			isa = PBXGroup;
 			children = (
+				3043A6471E7E7E6100761D6C /* Runtime */,
 			);
 			path = Categorys;
 			sourceTree = "<group>";
@@ -304,18 +321,29 @@
 			path = HYBUnicodeReadable;
 			sourceTree = "<group>";
 		};
-		30217F1F1E7E3ED100DA24D8 /* 1KVO观察Category属性 */ = {
+		3043A6471E7E7E6100761D6C /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
+				3043A6481E7E7E6100761D6C /* NSObject+AddProperty.h */,
+				3043A6491E7E7E6100761D6C /* NSObject+AddProperty.m */,
+				3043A64A1E7E7E6100761D6C /* NSObject+AssociatedObject.h */,
+				3043A64B1E7E7E6100761D6C /* NSObject+AssociatedObject.m */,
+				3043A64C1E7E7E6100761D6C /* NSObject+Reflection.h */,
+				3043A64D1E7E7E6100761D6C /* NSObject+Reflection.m */,
+				3043A64E1E7E7E6100761D6C /* NSObject+Runtime.h */,
+				3043A64F1E7E7E6100761D6C /* NSObject+Runtime.m */,
 			);
-			path = "1KVO观察Category属性";
+			path = Runtime;
 			sourceTree = "<group>";
 		};
-		30217F201E7E3ED100DA24D8 /* 2JS与OC方法转换 */ = {
+		3043A6541E7E7E8700761D6C /* @property的本质 */ = {
 			isa = PBXGroup;
 			children = (
+				3043A6551E7E7EA600761D6C /* Research001.h */,
+				3043A6561E7E7EA600761D6C /* Research001.m */,
+				3043A6571E7E7EA600761D6C /* Research001.xib */,
 			);
-			path = "2JS与OC方法转换";
+			path = "@property的本质";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,6 +459,7 @@
 				30217F131E7E3E5400DA24D8 /* Main.storyboard in Resources */,
 				30217F121E7E3E5400DA24D8 /* LaunchScreen.storyboard in Resources */,
 				30217F111E7E3E5400DA24D8 /* Assets.xcassets in Resources */,
+				3043A6591E7E7EA600761D6C /* Research001.xib in Resources */,
 				30217F011E7E3E5400DA24D8 /* BaseVc.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,15 +494,20 @@
 				30217F141E7E3E5400DA24D8 /* main.m in Sources */,
 				30217F0C1E7E3E5400DA24D8 /* NSArray+MASAdditions.m in Sources */,
 				30217F0B1E7E3E5400DA24D8 /* MASViewConstraint.m in Sources */,
+				3043A6511E7E7E6100761D6C /* NSObject+AssociatedObject.m in Sources */,
 				30217F0A1E7E3E5400DA24D8 /* MASViewAttribute.m in Sources */,
 				30217F0E1E7E3E5400DA24D8 /* View+MASAdditions.m in Sources */,
 				30217F1E1E7E3E7300DA24D8 /* NSSet+HYBUnicodeReadable.m in Sources */,
 				30217F1C1E7E3E7300DA24D8 /* NSArray+HYBUnicodeReadable.m in Sources */,
+				3043A6581E7E7EA600761D6C /* Research001.m in Sources */,
+				3043A6531E7E7E6100761D6C /* NSObject+Runtime.m in Sources */,
+				3043A6521E7E7E6100761D6C /* NSObject+Reflection.m in Sources */,
 				30217F001E7E3E5400DA24D8 /* BaseVc.m in Sources */,
 				30217F041E7E3E5400DA24D8 /* Aspects.m in Sources */,
 				30217F061E7E3E5400DA24D8 /* MASCompositeConstraint.m in Sources */,
 				30217F0D1E7E3E5400DA24D8 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				30217F1D1E7E3E7300DA24D8 /* NSDictionary+HYBUnicodeReadable.m in Sources */,
+				3043A6501E7E7E6100761D6C /* NSObject+AddProperty.m in Sources */,
 				30217F101E7E3E5400DA24D8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
