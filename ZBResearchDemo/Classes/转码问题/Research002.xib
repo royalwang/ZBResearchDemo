@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Research002">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGt-6Y-JQO">
+                    <rect key="frame" x="20" y="100" width="335" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="AHz-vX-3hI"/>
+                    </constraints>
+                    <state key="normal" title="%E6%88%91">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="GBKAndUTF8" destination="-1" eventType="touchUpInside" id="bBh-gw-GXj"/>
+                        <action selector="gbkAndUtf8:" destination="-1" eventType="touchUpInside" id="T5m-zS-5Kz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXx-SJ-WeA">
+                    <rect key="frame" x="20" y="164" width="335" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="FP4-MC-EMk"/>
+                    </constraints>
+                    <state key="normal" title="\\u">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="unicode:" destination="-1" eventType="touchUpInside" id="KJI-br-w3s"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kMp-9A-kNw">
+                    <rect key="frame" x="20" y="228" width="335" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="knv-o1-aD0"/>
+                    </constraints>
+                    <state key="normal" title="深圳银&amp;#x884C">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="GBK_DeCode" destination="-1" eventType="touchUpInside" id="Uym-ls-IhR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICa-9R-7NM">
+                    <rect key="frame" x="20" y="292" width="335" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="EJi-w9-qgi"/>
+                    </constraints>
+                    <state key="normal" title="UTF-8/GBK2312">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ICa-9R-7NM" firstAttribute="width" secondItem="kMp-9A-kNw" secondAttribute="width" id="2aM-Vb-u2B"/>
+                <constraint firstItem="kMp-9A-kNw" firstAttribute="width" secondItem="lXx-SJ-WeA" secondAttribute="width" id="3AA-M6-IcO"/>
+                <constraint firstItem="lXx-SJ-WeA" firstAttribute="width" secondItem="uGt-6Y-JQO" secondAttribute="width" id="3Sn-s1-YUD"/>
+                <constraint firstItem="kMp-9A-kNw" firstAttribute="centerX" secondItem="lXx-SJ-WeA" secondAttribute="centerX" id="Cmg-AC-GSI"/>
+                <constraint firstItem="uGt-6Y-JQO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="Gkw-eO-HQE"/>
+                <constraint firstAttribute="trailing" secondItem="uGt-6Y-JQO" secondAttribute="trailing" constant="20" id="J7c-BY-9Qo"/>
+                <constraint firstItem="kMp-9A-kNw" firstAttribute="height" secondItem="lXx-SJ-WeA" secondAttribute="height" id="Mgw-Sp-50F"/>
+                <constraint firstItem="ICa-9R-7NM" firstAttribute="centerX" secondItem="kMp-9A-kNw" secondAttribute="centerX" id="PFA-Pd-s05"/>
+                <constraint firstItem="uGt-6Y-JQO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="ROZ-nz-1Zl"/>
+                <constraint firstItem="lXx-SJ-WeA" firstAttribute="centerX" secondItem="uGt-6Y-JQO" secondAttribute="centerX" id="aRe-rO-ysS"/>
+                <constraint firstItem="lXx-SJ-WeA" firstAttribute="top" secondItem="uGt-6Y-JQO" secondAttribute="bottom" constant="20" id="bco-HE-esy"/>
+                <constraint firstItem="kMp-9A-kNw" firstAttribute="top" secondItem="lXx-SJ-WeA" secondAttribute="bottom" constant="20" id="kTn-KP-3pM"/>
+                <constraint firstItem="ICa-9R-7NM" firstAttribute="height" secondItem="kMp-9A-kNw" secondAttribute="height" id="psh-6r-7I8"/>
+                <constraint firstItem="ICa-9R-7NM" firstAttribute="top" secondItem="kMp-9A-kNw" secondAttribute="bottom" constant="20" id="tAZ-pG-cbZ"/>
+            </constraints>
+            <point key="canvasLocation" x="-15.5" y="30.5"/>
+        </view>
+    </objects>
+</document>

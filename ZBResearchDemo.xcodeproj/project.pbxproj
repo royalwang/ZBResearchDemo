@@ -39,6 +39,8 @@
 		3043A6531E7E7E6100761D6C /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3043A64F1E7E7E6100761D6C /* NSObject+Runtime.m */; };
 		3043A6581E7E7EA600761D6C /* Research001.m in Sources */ = {isa = PBXBuildFile; fileRef = 3043A6561E7E7EA600761D6C /* Research001.m */; };
 		3043A6591E7E7EA600761D6C /* Research001.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3043A6571E7E7EA600761D6C /* Research001.xib */; };
+		308DE81C1E89606C00A88428 /* Research002.m in Sources */ = {isa = PBXBuildFile; fileRef = 308DE81A1E89606C00A88428 /* Research002.m */; };
+		308DE81D1E89606C00A88428 /* Research002.xib in Resources */ = {isa = PBXBuildFile; fileRef = 308DE81B1E89606C00A88428 /* Research002.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +128,9 @@
 		3043A6551E7E7EA600761D6C /* Research001.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Research001.h; sourceTree = "<group>"; };
 		3043A6561E7E7EA600761D6C /* Research001.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Research001.m; sourceTree = "<group>"; };
 		3043A6571E7E7EA600761D6C /* Research001.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Research001.xib; sourceTree = "<group>"; };
+		308DE8191E89606C00A88428 /* Research002.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Research002.h; sourceTree = "<group>"; };
+		308DE81A1E89606C00A88428 /* Research002.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Research002.m; sourceTree = "<group>"; };
+		308DE81B1E89606C00A88428 /* Research002.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Research002.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +209,7 @@
 		30217E161E7E356600DA24D8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				308DE8151E895ED000A88428 /* 转码问题 */,
 				3043A6541E7E7E8700761D6C /* @property的本质 */,
 			);
 			path = Classes;
@@ -346,6 +352,16 @@
 			path = "@property的本质";
 			sourceTree = "<group>";
 		};
+		308DE8151E895ED000A88428 /* 转码问题 */ = {
+			isa = PBXGroup;
+			children = (
+				308DE8191E89606C00A88428 /* Research002.h */,
+				308DE81A1E89606C00A88428 /* Research002.m */,
+				308DE81B1E89606C00A88428 /* Research002.xib */,
+			);
+			path = "转码问题";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -460,6 +476,7 @@
 				30217F121E7E3E5400DA24D8 /* LaunchScreen.storyboard in Resources */,
 				30217F111E7E3E5400DA24D8 /* Assets.xcassets in Resources */,
 				3043A6591E7E7EA600761D6C /* Research001.xib in Resources */,
+				308DE81D1E89606C00A88428 /* Research002.xib in Resources */,
 				30217F011E7E3E5400DA24D8 /* BaseVc.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +516,7 @@
 				30217F0E1E7E3E5400DA24D8 /* View+MASAdditions.m in Sources */,
 				30217F1E1E7E3E7300DA24D8 /* NSSet+HYBUnicodeReadable.m in Sources */,
 				30217F1C1E7E3E7300DA24D8 /* NSArray+HYBUnicodeReadable.m in Sources */,
+				308DE81C1E89606C00A88428 /* Research002.m in Sources */,
 				3043A6581E7E7EA600761D6C /* Research001.m in Sources */,
 				3043A6531E7E7E6100761D6C /* NSObject+Runtime.m in Sources */,
 				3043A6521E7E7E6100761D6C /* NSObject+Reflection.m in Sources */,
