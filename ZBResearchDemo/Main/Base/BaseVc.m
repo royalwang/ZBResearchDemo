@@ -39,7 +39,8 @@ static NSString *const VC_Cell_Identifier = @"xzb_001_cell";
 - (void)customData
 {
     self.dataArray = @[[ControlModel modelWithTitle:@"@property的本质" className:@"Research001"],
-                       [ControlModel modelWithTitle:@"转码问题" className:@"Research002"]];
+                       [ControlModel modelWithTitle:@"转码问题" className:@"Research002"],
+                       [ControlModel modelWithTitle:@"文本框限制问题" className:@"Research003"]];
     
 }
 #pragma mark - api

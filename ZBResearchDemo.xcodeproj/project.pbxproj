@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300B3D411E8B783900E67050 /* Research003.m in Sources */ = {isa = PBXBuildFile; fileRef = 300B3D3F1E8B783900E67050 /* Research003.m */; };
+		300B3D421E8B783900E67050 /* Research003.xib in Resources */ = {isa = PBXBuildFile; fileRef = 300B3D401E8B783900E67050 /* Research003.xib */; };
+		300B3D451E8B7B7300E67050 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 300B3D441E8B7B7300E67050 /* UIView+Extension.m */; };
 		30217DFE1E7E34C400DA24D8 /* ZBResearchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30217DFD1E7E34C400DA24D8 /* ZBResearchDemoTests.m */; };
 		30217E091E7E34C400DA24D8 /* ZBResearchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30217E081E7E34C400DA24D8 /* ZBResearchDemoUITests.m */; };
 		30217F001E7E3E5400DA24D8 /* BaseVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 30217ED01E7E3E5300DA24D8 /* BaseVc.m */; };
@@ -61,6 +64,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		300B3D3E1E8B783900E67050 /* Research003.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Research003.h; sourceTree = "<group>"; };
+		300B3D3F1E8B783900E67050 /* Research003.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Research003.m; sourceTree = "<group>"; };
+		300B3D401E8B783900E67050 /* Research003.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Research003.xib; sourceTree = "<group>"; };
+		300B3D431E8B7B7300E67050 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		300B3D441E8B7B7300E67050 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		30217DE01E7E34C400DA24D8 /* ZBResearchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBResearchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30217DF41E7E34C400DA24D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30217DF91E7E34C400DA24D8 /* ZBResearchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBResearchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,6 +166,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		300B3D3D1E8B782600E67050 /* 文本框限制问题 */ = {
+			isa = PBXGroup;
+			children = (
+				300B3D3E1E8B783900E67050 /* Research003.h */,
+				300B3D3F1E8B783900E67050 /* Research003.m */,
+				300B3D401E8B783900E67050 /* Research003.xib */,
+			);
+			path = "文本框限制问题";
+			sourceTree = "<group>";
+		};
 		30217DD71E7E34C400DA24D8 = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +227,7 @@
 		30217E161E7E356600DA24D8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				300B3D3D1E8B782600E67050 /* 文本框限制问题 */,
 				308DE8151E895ED000A88428 /* 转码问题 */,
 				3043A6541E7E7E8700761D6C /* @property的本质 */,
 			);
@@ -244,6 +263,8 @@
 		30217ED61E7E3E5300DA24D8 /* Categorys */ = {
 			isa = PBXGroup;
 			children = (
+				300B3D431E8B7B7300E67050 /* UIView+Extension.h */,
+				300B3D441E8B7B7300E67050 /* UIView+Extension.m */,
 				3043A6471E7E7E6100761D6C /* Runtime */,
 			);
 			path = Categorys;
@@ -471,6 +492,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				300B3D421E8B783900E67050 /* Research003.xib in Resources */,
 				30217F051E7E3E5400DA24D8 /* Info.plist in Resources */,
 				30217F131E7E3E5400DA24D8 /* Main.storyboard in Resources */,
 				30217F121E7E3E5400DA24D8 /* LaunchScreen.storyboard in Resources */,
@@ -518,7 +540,9 @@
 				30217F1C1E7E3E7300DA24D8 /* NSArray+HYBUnicodeReadable.m in Sources */,
 				308DE81C1E89606C00A88428 /* Research002.m in Sources */,
 				3043A6581E7E7EA600761D6C /* Research001.m in Sources */,
+				300B3D411E8B783900E67050 /* Research003.m in Sources */,
 				3043A6531E7E7E6100761D6C /* NSObject+Runtime.m in Sources */,
+				300B3D451E8B7B7300E67050 /* UIView+Extension.m in Sources */,
 				3043A6521E7E7E6100761D6C /* NSObject+Reflection.m in Sources */,
 				30217F001E7E3E5400DA24D8 /* BaseVc.m in Sources */,
 				30217F041E7E3E5400DA24D8 /* Aspects.m in Sources */,

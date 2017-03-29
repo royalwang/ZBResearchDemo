@@ -4,3 +4,5 @@
 ###1.研究@property的本质  
 
 ###2.转码(UTF-8 /GBK/Unicode/GBK2312)
+
+###3.金额样式TextField
